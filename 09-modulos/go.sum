@@ -1,3 +1,5 @@
+github.com/afperdomo2/hellogomod v0.0.0-20250730195902-1f880c4c0701 h1:usyP5PJ+VMFkRl0ClTAALd+mAP9slqKBEEZQwu+MpXw=
+github.com/afperdomo2/hellogomod v0.0.0-20250730195902-1f880c4c0701/go.mod h1:2Y+2SwYtQS9kr0EQ3qAmroHWZiRRA1uENfl2GHLAl60=
 github.com/donvito/hellomod v1.0.1 h1:tOU3KDwvrGW7QUHXYQnk6YUD+92aTsRmJItJTD9f4I4=
 github.com/donvito/hellomod v1.0.1/go.mod h1:DuOSvrBCwGkjX0WS5ohdpC/q67fS0Mde3LEM+2jeHSw=
 github.com/donvito/hellomod/v2 v2.0.0 h1:HVot/mBxIZnlHDfHFc+C3xgQw8fUvcD+NH+PMQgw0YQ=
