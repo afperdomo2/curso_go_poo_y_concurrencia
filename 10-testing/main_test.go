@@ -72,3 +72,22 @@ func TestGetMin(t *testing.T) {
 		})
 	}
 }
+
+func TestFibonacci(t *testing.T) {
+	testCases := []struct {
+		a    int
+		want int
+	}{
+		{a: 0, want: 0},
+		{a: 1, want: 1},
+		{a: 8, want: 21},
+		{a: 50, want: 12586269025},
+	}
+	for _, tc := range testCases {
+		t.Run("Fibonacci", func(t *testing.T) {
+			if got := Fibonacci(tc.a); got != tc.want {
+				t.Errorf("Fibonacci(%d) = %d; want %d", tc.a, got, tc.want)
+			}
+		})
+	}
+}
